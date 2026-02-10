@@ -1,3 +1,14 @@
+加载outdoor世界（安装后路径举例）：
+ros2 launch go2_config gazebo_velodyne.launch.py world:=$(ros2 pkg prefix go2_config)/share/go2_config/worlds/outdoor.world rviz:=true
+
+加载playground世界：
+ros2 launch go2_config gazebo_velodyne.launch.py world:=$(ros2 pkg prefix go2_config)/share/go2_config/worlds/playground.world rviz:=true
+
+加载默认世界：
+ros2 launch go2_config gazebo_velodyne.launch.py world:=$(ros2 pkg prefix go2_config)/share/go2_config/worlds/default.world rviz:=true
+
+
+
 # unitree go2 ros2 - champ config
 
 > This package contains the configuration files for the Unitree Go2 robot configured with the CHAMP controller in ROS 2 (humble). It includes development of config package along with upgrade in robot description model for ROS 2 Humble distribution.
