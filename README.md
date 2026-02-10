@@ -7,6 +7,9 @@ ros2 launch go2_config gazebo_velodyne.launch.py world:=$(ros2 pkg prefix go2_co
 加载默认世界：
 ros2 launch go2_config gazebo_velodyne.launch.py world:=$(ros2 pkg prefix go2_config)/share/go2_config/worlds/default.world rviz:=true
 
+键盘控制：
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
 
 
 # unitree go2 ros2 - champ config
